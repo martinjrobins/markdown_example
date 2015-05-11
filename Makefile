@@ -1,4 +1,4 @@
-outputs = markdown.pdf markdown_article.pdf markdown.docx markdown_revealjs.html markdown_slidy.html markdown_dzslides.html markdown.odt markdown_article.html
+outputs = markdown.pdf markdown_article.pdf markdown.docx markdown_revealjs.html markdown_slidy.html markdown_dzslides.html markdown.odt markdown_article.html markdown.tex
 
 all: ${outputs}
 
@@ -10,6 +10,9 @@ markdown.pdf:markdown.md
 	pandoc ${filter} -f markdown$(extensions) -t beamer -V theme:Warsaw  --slide-level 1 $^ -o $@
 
 markdown_article.pdf:markdown.md
+	pandoc ${filter} -f markdown$(extensions) $^ -o $@
+
+markdown.tex:markdown.md
 	pandoc ${filter} -f markdown$(extensions) $^ -o $@
 
 markdown.docx:markdown.md

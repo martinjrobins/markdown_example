@@ -9,11 +9,10 @@ bibliography: "library.bib"
 Markdown is human-readable text
 ===============================
 
-that can be converted into many, many different display formats
----------------------------------------------------------
-
-- Citations: [@Robinson2015]
-- Latex equations[^1]: 
+- that can be converted into many different display formats
+    - Latex, Beamer, HTML, PDF, Word docx, ODT, Ebooks, ...
+- Citations using your BibTeX library [@Robinson2015]
+- Equations using LaTeX syntax[^1]: 
 $$ 
  E_{HGO}(\mathbf{u}_i, \mathbf{u}_j, \mathbf{r}) = 
  \begin{cases}
@@ -28,5 +27,10 @@ $$
 
 References
 ==========
+
+Get This Presentation
+=====================
+
+<https://github.com/martinjrobins/markdown_example.git>
 
 
