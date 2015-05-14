@@ -25,12 +25,12 @@ $$
 
 [^1]: and figures, formatted code blocks, tables, internal links, numbered lists, nested lists, table of contents, bibliography, custom templates and filters ...
 
-References
-==========
-
 Get This Presentation
 =====================
 
 <https://github.com/martinjrobins/markdown_example.git>
 
+
+References
+==========
 

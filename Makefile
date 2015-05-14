@@ -4,7 +4,6 @@ all: ${outputs}
 
 extensions = 
 filter = --filter pandoc-citeproc
-filter = 
 
 markdown.pdf:markdown.md
 	pandoc ${filter} -f markdown$(extensions) -t beamer -V theme:Warsaw  --slide-level 1 $^ -o $@
